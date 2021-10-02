@@ -54,7 +54,7 @@ ul > li {
 .contact-email {
   color: #7eb02b;
 }
-/* ------- Hero Section---------- */
+
 .container-grid {
   position: relative;
   text-align: left;
@@ -93,7 +93,7 @@ h5 {
   line-height: 46px;
   font-weight: bold;
   text-align: center;
-  border-radius: 40%;
+  border-radius: 35%;
   background: #7eb02b;
   display: inline-block;
   color: white;
@@ -233,9 +233,6 @@ h5 {
   font-size: 0.8rem;
   margin-bottom: 10px;
 }
-/* Extra small devices (portrait phones, less than 576px) */
-@media (max-width: 575.98px) {
-}
 
 /* Small devices (landscape phones, less than 768px) */
 @media (max-width: 767.98px) {
@@ -260,12 +257,28 @@ h5 {
   .section .container {
     margin-bottom: 0;
   }
-}
-
-/* Medium devices (tablets, less than 992px) */
-@media (max-width: 991.98px) {
-}
-
-/* Large devices (desktops, less than 1200px) */
-@media (max-width: 1199.98px) {
+  .top-left {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    width: 400px;
+  }
+  .bottom-right {
+    display: none;
+  }
+  .h2 {
+    font-size: 15px;
+    color: #7eb02b;
+  }
+  .h1 {
+    font-size: 30px;
+    font-weight: normal;
+  }
+  .paragraph {
+    font-size: 12px;
+  }
+  h5 {
+    font-size: 18px;
+    padding: 10px;
+  }
 }
