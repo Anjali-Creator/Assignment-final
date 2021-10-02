@@ -1,0 +1,271 @@
+* {
+  /* font-family: "Open Sans", sans-serif; */
+  box-sizing: border-box;
+  /* border: 1px solid red; */
+}
+
+:root {
+  --green: #84b337;
+  --section-gap: 75px;
+
+  --welcome-blue: #17479a;
+  --welcome-green: #99d03e;
+  --welcome-grey: #aaaaaa;
+
+  --sector-blue: #17479a;
+  --sector-blue-hover: #1c53b3;
+  --sector-dark-blue: #10326b;
+  --sector-white: #ffffff;
+  --sector-green: #99d03e;
+
+  --program-green: #99d03e;
+  --program-grey: #5b5b5b;
+  --program-blue: #17479a;
+  --program-white: #ffffff;
+}
+
+/* ------- NavBar---------- */
+.logo {
+  width: 150px;
+}
+.logo > ul {
+  margin-left: 100px;
+}
+ul > li {
+  width: 130px;
+  font-size: 14px;
+}
+.vertical > .nav-link {
+  width: 250px;
+}
+.vertical {
+  border-left: 1px solid rgb(179, 179, 179);
+}
+
+.phone {
+  color: #17479a;
+}
+.message {
+  color: #7eb02b;
+}
+.contact-info {
+  color: #17479a;
+}
+.contact-email {
+  color: #7eb02b;
+}
+/* ------- Hero Section---------- */
+.container-grid {
+  position: relative;
+  text-align: left;
+  color: white;
+}
+.top-left {
+  position: absolute;
+  top: 200px;
+  left: 200px;
+  width: 500px;
+}
+.bottom-right {
+  position: absolute;
+  top: 250px;
+  right: 200px;
+}
+.h2 {
+  font-size: 30px;
+  color: #7eb02b;
+}
+.h1 {
+  font-size: 60px;
+  font-weight: normal;
+}
+.paragraph {
+  margin-top: 20px;
+  font-size: 16px;
+}
+h5 {
+  font-size: 22px;
+  padding: 10px;
+}
+.active-no {
+  width: 42px;
+  height: 60px;
+  line-height: 46px;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 40%;
+  background: #7eb02b;
+  display: inline-block;
+  color: white;
+  position: relative;
+}
+
+.container {
+  margin-top: var(--section-gap);
+  font-family: "Playfair Display", serif;
+  font-weight: 400;
+}
+
+.section {
+  margin-bottom: var(--section-gap);
+}
+
+.thave-welcome p {
+  line-height: 30px;
+}
+
+.thave-welcome .banner > img {
+  width: 350px;
+  margin-top: 10px;
+}
+
+.read-more {
+  width: 75%;
+  margin-top: 55px;
+  padding-left: 20px;
+}
+
+.read-more > div:last-of-type > div {
+  text-align: right;
+  text-transform: uppercase;
+  border-bottom: 2px solid var(--green);
+  margin-top: -7px;
+  color: var(--welcome-grey);
+  font-family: "Manrope", sans-serif;
+  font-weight: 400;
+  font-size: 0.8rem;
+  letter-spacing: 0.1rem;
+}
+
+.read-more > div:first-of-type {
+  padding-right: 20px;
+  font-weight: bold;
+}
+
+.thave-sectors {
+  background-color: var(--sector-blue);
+  color: var(--sector-white);
+  padding: 50px 0;
+}
+
+.sector {
+  width: 160px;
+  height: 160px;
+}
+
+.section .container {
+  margin-top: 0;
+}
+
+.thave-sectors .heading h2 {
+  margin-bottom: 50px;
+}
+
+.thave-sectors .heading h6 {
+  color: var(--sector-green);
+}
+
+.thave-sectors .sector {
+  padding: 0.5rem;
+}
+
+.thave-sectors .sector h6 {
+  font-size: 0.9rem;
+  line-height: 1.4rem;
+}
+.thave-sectors .sector h5 {
+  color: var(--sector-dark-blue);
+  font-size: 2rem;
+  padding-bottom: 0.3rem;
+}
+
+.thave-sectors .sector a {
+  font-size: 0.8rem;
+  line-height: 1.4rem;
+  color: var(--sector-green);
+}
+
+.thave-program {
+  background: linear-gradient(white, #f2f6fd);
+}
+.thave-program .banner > img {
+  width: 520px;
+  margin-top: 10px;
+}
+
+.thave-program .program {
+  padding: 1rem;
+  background-color: var(--program-white);
+  margin: 3px;
+}
+
+.thave-program .program h3 {
+  font-size: 1.2rem;
+  padding-bottom: 0.3rem;
+}
+
+.thave-program .program a {
+  font-size: 0.8rem;
+  line-height: 1.4rem;
+  color: var(--program-blue);
+  font-weight: bold;
+}
+
+.thave-program .heading h2 {
+  margin-bottom: 50px;
+  color: var(--program-blue);
+}
+
+.thave-program .heading h6 {
+  color: var(--program-green);
+}
+
+.thave-program h4 {
+  color: var(--program-grey);
+  font-size: 0.8rem;
+  margin-bottom: 1.5rem;
+}
+
+.thave-program .bullet i {
+  color: var(--program-green);
+}
+.thave-program .bullet {
+  font-size: 0.8rem;
+  margin-bottom: 10px;
+}
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+  .row > div {
+    margin-bottom: 50px;
+  }
+  .container {
+    margin-top: 0;
+  }
+  .section {
+    margin-bottom: 0;
+  }
+
+  .thave-welcome .read-more {
+    margin: 0 auto;
+    margin-top: 30px;
+  }
+  .thave-welcome .banner {
+    text-align: center;
+  }
+
+  .section .container {
+    margin-bottom: 0;
+  }
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+}
+
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {
+}
